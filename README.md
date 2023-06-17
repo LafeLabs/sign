@@ -1,8 +1,5 @@
-![](https://raw.githubusercontent.com/LafeLabs/TUBES/main/trashmagic/TUBES-qrcode-page.png)
+# [CARDBOARD SIGN!](https://github.com/lafeLabs/sign)
 
-# [THE TRASH WEB!](https://github.com/lafeLabs/trashweb)
-
-GET A TRASH MAGIC WEB PAGE! GO TO AN EXISTING WEB PAGE AND FORK YOUR OWN PAGE OR BUILD A NEW SERVER AND START MAKING THOSE INTO PAGES.  
 
 TO BUILD A NEW TRASH MAGIC SERVER FIND A COMPUTER FROM A WASTE STREAM, COPY OFF ANY INFORMATION ANYONE WANTS TO KEEP, WIPE THE HARD DRIVE, AND INSTALL [UBUNTU](https://ubuntu.com/desktop) OR SOME OTHER FORM OF LINUX.
 
@@ -15,7 +12,7 @@ sudo apt install php libapache2-mod-php -y
 cd /var/www/html
 sudo rm index.html
 sudo apt install curl
-sudo curl -o replicator.php https://raw.githubusercontent.com/LafeLabs/trashweb/main/php/replicator.txt
+sudo curl -o replicator.php https://raw.githubusercontent.com/LafeLabs/sign/main/php/replicator.txt
 cd ..
 sudo chmod -R 0777 *
 cd html
